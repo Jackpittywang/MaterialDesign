@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/one"
+        android:icon="@drawable/home_netmanager"
+        android:title="netmanager"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/two"
+        android:icon="@drawable/home_sysoptimize"
+        android:title="sysoptimize"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/there"
+        android:icon="@drawable/home_settings"
+        android:title="settings"
+        app:showAsAction="never"
+         />
+
+</menu>
